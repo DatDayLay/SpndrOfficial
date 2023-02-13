@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allerta+Stencil&family=Anton&family=Big+Shoulders+Stencil+Display:wght@100&family=Big+Shoulders+Stencil+Text:wght@100&family=Big+Shoulders+Text:wght@100&family=Darker+Grotesque:wght@600&family=Elsie+Swash+Caps&family=Gugi&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Monoton&family=Overpass:wght@400;700&family=Plaster&family=Quicksand&family=Rubik+Glitch&family=Space+Grotesk:wght@500&family=Supermercado+One&family=Tourney&family=Train+One&family=Wallpoet&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-2 {
+  display: flex;
+  /* background-color: red; */
+  margin-top: 40px;
+}
+.bag {
+  height: 80px;
+  width: 80px;
+  margin-left: 205.38px;
+}
+.main-spndr {
+  position: absolute;
+  top: 35px;
+  left: 110.38px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 108px;
+  /* text-align: center; */
+  color: #222222;
+}
+.Account-signup {
+  background: #efefef;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create-h2 {
+  /* background-color: red; */
+  /* position: absolute; */
+  /* text-align: center; */
+  margin-top: 40px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  /* width: 418px; */
+  /* top: 88px; */
+  /* position: absolute; */
+  /* left: 180px; */
+
+  color: #260058;
+  letter-spacing: 2px;
+}
+.email {
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: left;
+  width: 100px;
+  /* background-color: red; */
+  /* margin-left: -70px; */
+  margin-right: 160px;
+  margin-top: 30px;
+  color: #260058;
+  letter-spacing: 2px;
+}
+.input {
+  margin-top: 10px;
+  width: 265px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  border-radius: 8px;
+  /* border: solid thin 1px; */
+  /* border-left: solid thin #222222;
+    border-right: solid thin #222222;
+    border-top: solid thin #260058;
+    border-bottom: solid thin #260058; */
+  /* background-color: #efefef; */
+  /* border: none; */
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #222222;
+  border-color: #00bd56;
+}
+.input:hover {
+  border-left: solid thin #222222;
+  border-right: solid thin #222222;
+  border-top: solid thin #260058;
+  border-bottom: solid thin #260058;
+}
+.field {
+  /* text-align: center; */
+  left: 545px;
+  /* width: 150px; */
+  /* margin-top: 10px; */
+  /* display: none; */
+  /* position: absolute; */
+  top: 220px;
+  color: red;
+  letter-spacing: 1px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.field-2 {
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 150px; */
+  /* margin-top: 10px; */
+  /* display: none; */
+  /* position: absolute; */
+  /* margin-top: 2%; */
+  color: red;
+  letter-spacing: 1px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 14px;
+  /* background-color: blue; */
+}
+.field-3 {
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 150px; */
+  /* margin-top: 10px; */
+  /* display: none; */
+  /* position: absolute; */
+  /* margin-top: 2%; */
+  color: red;
+  letter-spacing: 1px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.warning {
+  display: none;
+}
+.full-signup {
+  margin-top: 30px;
+  background: #00bd56;
+  width: 205px;
+  height: 52px;
+  left: calc(50% - 200px / 2);
+  top: calc(50% - 52px / 2 + 50px);
+  padding: 14px 36px;
+  text-decoration: none;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.full-signup:hover {
+  background: #e1610b;
+}
+.already {
+  margin-top: 10px;
+  text-decoration: none;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 17px;
+  color: #222222;
+}
+.already:hover {
+  color: #e1610b;
+}
+.span-log {
+  text-decoration: underline;
+}
+.submission-div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  color: black;
+  z-index: 0;
+  /* background: linear-gradient(to right, #2c3e50 30%, #fd746c 100%); */
+  width: 50%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-top: 8%;
+  margin-right: auto;
+  margin-left: auto;
+  background: white;
+}
+.submit-bag {
+  height: 200px;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1;
+}
+.x {
+  font-size: 30px;
+  /* background-color: blue; */
+  width: 50px;
+  margin-left: auto;
+  margin-right: 2%;
+  margin-top: 2%;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: #fff;
+  z-index: 1;
+}
+.x:hover {
+  color: #e1610b;
+}
+.submit-text {
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #260058;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  width: fit-content;
+  padding: 0% 10%;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+.back {
+  /* margin-top: 30px; */
+  position: sticky;
+  background: #00bd56;
+  width: fit-content;
+  height: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+  /* left: calc(50% - 200px / 2);
+  top: calc(50% - 52px / 2 + 50px); */
+  padding: 14px 36px;
+  text-decoration: none;
+  font-family: "Darker Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+}
+.back:hover {
+  background: #e1610b;
+  cursor: pointer;
+}
+.cancel {
+  display: none;
+}
+.hide2 {
+  display: none;
+}
+.hide3 {
+  display: none;
+}
+
+.usrnm-input {
+  border: none;
+}
+.pswrd-input {
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-2 {
+    display: flex;
+    background-color: white;
+    width: 100%;
+  }
+  .bag {
+    height: 80px;
+    width: fit-content;
+    margin-left: 2%;
+    /* margin-right: auto; */
+    margin-right: auto;
+  }
+  .main-spndr {
+    /* position: absolute; */
+    /* top: 35px;
+    left: 110.38px; */
+    /* background-color: blue; */
+    margin-left: -5%;
+    margin-right: auto;
+    font-family: "Darker Grotesque", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 108px;
+    /* text-align: center; */
+    color: #222222;
+  }
+  .submission-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    color: black;
+    z-index: 0;
+    /* background: linear-gradient(to right, #2c3e50 30%, #fd746c 100%); */
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+  }
+  .x {
+    font-size: 40px;
+  }
+  .submit-text {
+    font-size: 25px;
+  }
+  .back {
+    font-size: 20px;
+  }
+  .cancel {
+    display: none;
+  }
+  .hide2 {
+    display: none;
+  }
+  .hide3 {
+    display: none;
+  }
+
+  .usrnm-input {
+    border: none;
+  }
+  .pswrd-input {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .nav-2 {
+    display: flex;
+    background-color: white;
+    width: 100%;
+  }
+  .bag {
+    height: 80px;
+    width: fit-content;
+    margin-left: 2%;
+    /* margin-right: auto; */
+    margin-right: auto;
+  }
+  .main-spndr {
+    /* position: absolute; */
+    /* top: 35px;
+    left: 110.38px; */
+    /* background-color: blue; */
+    margin-left: -3%;
+    margin-right: auto;
+    font-family: "Darker Grotesque", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 108px;
+    /* text-align: center; */
+    color: #222222;
+  }
+  .submission-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    color: black;
+    z-index: 0;
+    /* background: linear-gradient(to right, #2c3e50 30%, #fd746c 100%); */
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+  }
+  .x {
+    font-size: 50px;
+  }
+  .submit-text {
+    font-size: 30px;
+  }
+  .back {
+    font-size: 25px;
+  }
+  .cancel {
+    display: none;
+  }
+  .hide2 {
+    display: none;
+  }
+  .hide3 {
+    display: none;
+  }
+
+  .usrnm-input {
+    border: none;
+  }
+  .pswrd-input {
+    border: none;
+  }
+}
